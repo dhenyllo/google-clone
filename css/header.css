@@ -1,14 +1,50 @@
-#menuApps {
-    border: none;
-    background: none;
+.googleAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    background: linear-gradient(-54deg, #0000ff, #ff0000, #ffa500, #008000);
+    background-image: linear-gradient(-54deg, #0000ff, #ff0000, #ffa500, #008000);
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    background-size: 400% 400%;
+    background-image: linear-gradient(-54deg, #0000ff, #ff0000, #ffa500, #008000);
+    animation: mygradient 6s ease-in-out infinite;
 }
 
-.nav a img {
+@keyframes mygradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.googleApps {
+    border: none;
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 48px;
+}
+
+.googleApps:hover {
+    background-color: gainsboro;
+}
+
+.gmail {
     transition: .2s;
     transition-duration: .4s;
 }
 
-.nav a img:hover {
+.gmail:hover {
     transform: scale(1.2);
 }
