@@ -1,0 +1,14 @@
+#menuApps {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav a img {
+    transition: .2s;
+    transition-duration: .4s;
+}
+
+.nav a img:hover {
+    transform: scale(1.2);
+}
